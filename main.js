@@ -30,6 +30,9 @@ let player2 = calcPunteggio(numTiri);
 if(player1>player2){
     console.log(`Il giocatore 1 ha totalizzato più punti!\nPunteggio: ${player1}`);
 }
+else if(player1=player2){
+    console.log(`I giocatori hanno totalizzato lo stesso punteggio!\nPunteggio: ${player1}`);
+}
 else{
     console.log(`Il giocatore 2 ha totalizzato più punti!\nPunteggio: ${player2}`);
 }
